@@ -5,6 +5,6 @@ RUN mvn clean package -DskipTests
 
 FROM tomcat:9.0.108-jdk17-corretto
 RUN rm -rf /usr/local/tomcat/webapps/* //xóa mặc định của tomcat
-COPY --from=builder /deployServletProject/target/DeployServletProject-1.0.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=builder /NguyenDucAnh/target/NguyenDucAnh-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
