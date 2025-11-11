@@ -1,33 +1,50 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Nov 6, 2025, 2:56:48 PM
-    Author     : ducan
-*/
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11pt;
-    margin-left: 2em;
-    margin-right: 2em;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
-h1 { 
-    color: teal;
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+h1 {
+    color: #008080;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 20px;
 }
 label {
-    float: left;
-    width: 6em;
-    margin-bottom: 0.5em;
+    display: block;
+    margin-bottom: 5px;
 }
-input[type="text"], input[type="email"] {
-    width: 15em;
-    margin-left: 0.5em;    
-    margin-bottom: 0.5em;
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
 }
-br {
-    clear: both;
+.question {
+    color: #008080;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-#submit {
-    margin-left: 0.5em; }
-
+.radio-group,
+.checkbox-group {
+    margin-bottom: 20px;
+}
+.radio-group label,
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 20px;
+}
+select {
+    padding: 5px;
+    margin-bottom: 20px;
+}
