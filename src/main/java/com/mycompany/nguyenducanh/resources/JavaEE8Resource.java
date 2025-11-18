@@ -1,4 +1,4 @@
-package com.mycompany.baitap2.resources;
+package com.mycompany.nguyenducanh.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

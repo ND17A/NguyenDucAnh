@@ -1,4 +1,4 @@
-package com.mycompany.baitap2;
+package com.mycompany.nguyenducanh;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
