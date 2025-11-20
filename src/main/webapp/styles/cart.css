@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 10px;
-
 }
 h1 {
     font-size: 18px;
@@ -21,11 +20,6 @@ th, td {
 th {
     background-color: #f0f0f0;
 }
-input[type="text"] {
-    border: 1px solid #ccc;
-    padding: 2px;
-    font-size: 12px;
-}
 input[type="submit"] {
     background-color: #f0f0f0;
     border: 1px outset #ccc;
@@ -34,10 +28,12 @@ input[type="submit"] {
     cursor: pointer;
     border-radius: 3px;
 }
-p {
-    font-size: 12px;
-    margin: 10px 0;
+input[type="text"] {
+    width: 30px;
+    padding: 2px;
+    margin-right: 5px;
 }
-form {
-    display: inline; /* Để button nằm ngang nếu cần, nhưng ở dưới dùng block */
+p {
+    margin-top: 10px;
+    font-size: 12px;
 }
