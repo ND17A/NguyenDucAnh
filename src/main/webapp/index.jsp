@@ -1,63 +1,31 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
-    <h1>CD List</h1>
-    <table>
-        <tr>
-            <th>Description</th>
-            <th>Price</th>
-            <th></th>
-        </tr>
-        <tr>
-            <td>86 (the band) - True Life Songs and Pictures</td>
-            <td>$14.95</td>
-            <td>
-                <form action="cart" method="post">
-                    <input type="hidden" name="action" value="add">
-                    <input type="hidden" name="productCode" value="86">
-                    <input type="submit" value="Add To Cart">
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td>Paddlefoot - The first CD</td>
-            <td>$12.95</td>
-            <td>
-                <form action="cart" method="post">
-                    <input type="hidden" name="action" value="add">
-                    <input type="hidden" name="productCode" value="pf01">
-                    <input type="submit" value="Add To Cart">
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td>Paddlefoot - The second CD</td>
-            <td>$14.95</td>
-            <td>
-                <form action="cart" method="post">
-                    <input type="hidden" name="action" value="add">
-                    <input type="hidden" name="productCode" value="pf02">
-                    <input type="submit" value="Add To Cart">
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td>Joe Rut - Genuine Wood Grained Finish</td>
-            <td>$14.95</td>
-            <td>
-                <form action="cart" method="post">
-                    <input type="hidden" name="action" value="add">
-                    <input type="hidden" name="productCode" value="jr01">
-                    <input type="submit" value="Add To Cart">
-                </form>
-            </td>
-        </tr>
-    </table>
+
+<h1>List of albums</h1>
+
+<p>
+<a href="download?action=checkUser&amp;productCode=8601">
+    86 (the band) - True Life Songs and Pictures
+</a><br>
+
+<a href="download?action=checkUser&amp;productCode=pf01">
+    Paddlefoot - The First CD
+</a><br>
+
+<a href="download?action=checkUser&amp;productCode=pf02">
+    Paddlefoot - The Second CD
+</a><br>
+
+<a href="download?action=checkUser&amp;productCode=jr01">
+    Joe Rut - Genuine Wood Grained Finish
+</a>
+</p>
+
 </body>
 </html>

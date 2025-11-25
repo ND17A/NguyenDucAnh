@@ -1,4 +1,4 @@
-package com.mycompany.baitap6;
+package com.mycompany.baitap7;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

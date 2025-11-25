@@ -1,4 +1,4 @@
-package com.mycompany.baitap6.resources;
+package com.mycompany.baitap7.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

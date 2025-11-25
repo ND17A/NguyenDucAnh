@@ -1,43 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 10px;
 
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 400px;
 }
-h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
+h1 {     
+    font-size: 140%;
     color: teal;
+    margin-bottom: .5em;    
 }
+h2 {     
+    font-size: 120%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the tables */
 table {
+    border: 1px solid black;
     border-collapse: collapse;
-    width: 80%;
 }
 th, td {
-    border: 1px solid #000;
-    padding: 5px;
+    border: 1px solid black;
     text-align: left;
-    vertical-align: top;
+    padding: .5em;
 }
-th {
-    background-color: #f0f0f0;
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
 }
-input[type="text"] {
-    border: 1px solid #ccc;
-    padding: 2px;
-    font-size: 12px;
+.margin_left {
+    margin-left: 0.5em;
 }
-input[type="submit"] {
-    background-color: #f0f0f0;
-    border: 1px outset #ccc;
-    padding: 4px 8px;
-    font-size: 12px;
-    cursor: pointer;
-    border-radius: 3px;
+.align_left {
+    text-align: left;
 }
-p {
-    font-size: 12px;
-    margin: 10px 0;
-}
-form {
-    display: inline; /* Để button nằm ngang nếu cần, nhưng ở dưới dùng block */
+.align_right {
+    text-align: left;
 }
